@@ -129,7 +129,7 @@ spctl -a -v "Jamf Search Scripts and EAs.app"
 ## Building from Source
 
 ```bash
-git clone https://github.com/yourusername/jamf-search-scripts-eas.git
+git clone https://github.com/karthikeyan-mac/JamfScriptsEAsStringSearch.git
 cd JamfScriptsEAsStringSearch
 open JamfScriptsEAsStringSearch.xcodeproj
 ```
