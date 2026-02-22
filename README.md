@@ -81,7 +81,7 @@ Search text across all Scripts and Computer Extension Attributes in your Jamf Pr
 1. Launch app
 2. Select **Production** or **Sandbox**
 3. Enter:
-   - Jamf URL: `https://yourinstance.jamfcloud.com`
+   - Jamf URL: `https://yourinstance.jamfcloud.com` or `https://server.yourcompanyname.com:8443`
    - Client ID & Secret from Jamf Pro
 4. Enable **Save to Keychain** (optional)
 
@@ -118,14 +118,8 @@ spctl -a -v "Jamf Search Scripts and EAs.app"
 **Access denied?**
 - API Role missing required permissions
 
-**Credentials won't save?**
-- Unlock Keychain in Keychain Access app
-- Or skip "Save to Keychain" (works for current session)
-
 **More help:** Check Activity tab for detailed errors or [open an issue](../../issues)
-
 ---
-
 ## Building from Source
 
 ```bash
@@ -138,9 +132,10 @@ open JamfScriptsEAsStringSearch.xcodeproj
 
 - **Apple** - [SwiftUI](https://developer.apple.com/xcode/swiftui/) framework
 - **Jamf** - [Jamf Pro API](https://developer.jamf.com/) documentation
-- **Jamf Community** - Feedback and feature requests
+- **Mac Admins India community** - https://macadmins.in/
+- **Jamf Nation Community** - Feedback and feature requests
 - **macOS admins** - Testing and real-world usage
-- **AI** - (ChatGPT & Claude)
+- **AI** - ([ChatGPT](https://chatgpt.com) & [Claude](https://claude.ai/))
 ---
 ## License
 
